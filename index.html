@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- **********REMIX ICON*********** -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <title>Aakash Yadav</title>
+  <!-- google font for nav -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+
+
+
+  <!-- *************CSS************* -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- *************CSS media ************* -->
+  <link rel="stylesheet" href="css/media.css">
+  <!-- ****************web icon************* -->
+  <link rel="icon" href="img/profile_icon_img.png" />
+</head>
+
+<body>
+  <header class="navbar">
+    <!-- <div class="menu">
+        <a href="#"><i class="ri-menu-line"></i></a>
+      </div> -->
+
+
+
+
+    <div class="hamb">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+
+    <div class="logo"><a href="#home">LOGO</a></div>
+
+
+    <!-- <div class="home"><a href="#home">Home</a></div>
+      <div class="about"><a href="#about">About</a></div>
+      <div class="project"><a href="#projects">Project</a></div>
+      <div class="skills"><a href="#skills">Blog</a></div>
+      <div class="contact"><a href="#contact">Contact</a></div> -->
+
+    <ul class="mobile_navbar">
+      <li><a onclick="change()" id="home" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Project</a>
+      <li><a href="#">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="mode">
+      <a href="#"><i class=" ri-moon-line" id="theme-button"></i></a>
+    </div>
+  </header>
+
+  <div class="white_nav">
+    <div class="white_nav_item">
+    </div>
+  </div>
+
+  <section class="gif_section" id="home">
+    <img src="img/code-gif.gif" alt="" />
+  </section>
+
+  <section class="inc_height"></section>
+
+  <section class="profile_container grid">
+    <div class="profile_main">
+      <div class="profile_image">
+        <!-- adding circle animation in future -->
+        <img class="effect" src="img/profile.jpg" alt="" />
+      </div>
+    </div>
+    <div class="profile_name">
+      <h3>Aakash Yadav</h3>
+    </div>
+
+    <!-- Adding auto text in future -->
+
+    <div class="profile_social">
+      <li class="profile_social_link">
+        <a href="https://www.linkedin.com/in/aakash-yadav-9bb5a5263"><i class="ri-linkedin-line"></i></a>
+      </li>
+      <li class="profile_social_link">
+        <a href="https://github.com/aakashy5990"><i class="ri-github-fill"></i></a>
+      </li>
+      <li class="profile_social_link">
+        <a href="https://www.instagram.com/creatorz_editz/"><i class="ri-instagram-line"></i></a>
+      </li>
+      <li class="profile_social_link">
+        <a href="https://www.facebook.com/profile.php?id=100028252240753"><i class="ri-facebook-line"></i></a>
+      </li>
+      <li class="profile_social_link">
+        <a href="#"><i class="ri-twitter-line"></i></a>
+      </li>
+    </div>
+    <!-- Adding spotify song in future -->
+  </section>
+
+  <!-- Adding button -->
+
+  <!-- ******************MAIN***************** -->
+  <div class="main">
+    <section class="filters container">
+      <!-- *********filter tags******** -->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters__button" data-target="#skills">Skills</button>
+      </ul>
+
+      
+
+      <div class="filters__sections grid">
+        <!-- ********PROJECTS******** -->
+        <div class="project_heading"><h3>Projects & Skills</h3></div>
+
+        <div class="projects__content colum grid filters__active" data-content id="projects">
+          <!-- <article class="projects__card">
+            <img src="img/A curious reader.jpg" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <h3 class="projects__title">A curious reader</h3>
+                <a href="img/A curious reader.jpg" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+              </div>
+            </div>
+          </article> -->
+
+
+
+          <article class="projects__card">
+            <img src="img/car_repair.jpg" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <!-- <span class="projects__subtitle">Web</span> -->
+                <h3 class="projects__title">Car Repair</h3>
+                <p class="projects__title" >Website</p>
+                <a href="https://github.com/aakashy5990/car_repair_website" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+                <a href="https://aakashy5990.github.io/car_repair_website/" target="_blank" class="projects__button update button button__small"><i class="ri-eye-line"></i></a>
+              </div>
+            </div>
+          </article>
+
+
+
+          <article class="projects__card">
+            <img src="img/brainwave.jpg" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <!-- <span class="projects__subtitle">Web</span> -->
+                <h3 class="projects__title">Brain Wave</h3>
+                <p class="projects__title" >Website</p>
+                <a href="https://github.com/aakashy5990/BrainWave" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+                <a href="https://aakashy5990.github.io/BrainWave/" target="_blank" class="projects__button update button button__small"><i class="ri-eye-line"></i></a>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="projects__card">
+            <img src="img/web1.jpg" alt="" class="projects__img" />
+            <div class="projects__modal">
+              <div>
+                <!-- <span class="projects__subtitle">Web</span> -->
+                <h3 class="projects__title">Love With Music</h3>
+                <p class="projects__title" >Website</p>
+                <a href="https://github.com/aakashy5990/music_web" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+                <a href="https://aakashy5990.github.io/music_web/" target="_blank" class="projects__button update button button__small"><i class="ri-eye-line"></i></a>
+              </div>
+            </div>
+          </article>
+
+         
+
+          <article class="projects__card">
+            <img src="img/Starry serenade.jpg" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <!-- <span class="projects__subtitle">Movil</span> -->
+                <h3 class="projects__title">Starry serenade</h3>
+                <a href="img/Starry serenade.jpg" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          
+
+          <!-- <article class="projects__card">
+            <img src="img/Cybermania.jpg" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <h3 class="projects__title">Cybermania</h3>
+                <a href="img/Cybermania.jpg" class="projects__button button button__small" download>
+                  <i class="ri-links-fill"></i>
+                </a>
+              </div>
+            </div>
+          </article> -->
+
+        </div>
+
+        <!-- *************SKILLS*************** -->
+        <div class="skills__content media_grid container" data-content id="skills">
+          <h3 class="skills__title text_align">Technical Skills</h3>
+          <div class="skills__area">
+            <div class="skills__box">
+              <div class="skill-main">
+                <div class="skill-bar">
+                  <div class="info">
+                    <p>HTML</p>
+                    <p>80%</p>
+                  </div>
+                  <div class="bar">
+                    <span class="html"></span>
+                  </div>
+                </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <p>CSS</p>
+                    <p>75%</p>
+                  </div>
+                  <div class="bar">
+                    <span class="css"></span>
+                  </div>
+                </div>
+
+                <!-- <div class="skill-bar">
+                    <div class="info">
+                      <p>JavaScript</p>
+                      <p>20%</p>
+                    </div>
+                    <div class="bar">
+                      <span class="javascript"></span>
+                    </div>
+                  </div> -->
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <p>C programming</p>
+                    <p>70%</p>
+                  </div>
+                  <div class="bar">
+                    <span class="c_programming"></span>
+                  </div>
+                </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <p>Photo Editing</p>
+                    <p>60%</p>
+                  </div>
+                  <div class="bar">
+                    <span class="photoshop"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- ***********contact card section******** -->
+
+  <div class="contact_section container">
+    <div class="contact_phone_section">
+      <div class="contact_center">
+        <div class="contact_phone_icon">
+          <div class="contact_item1">
+            <div class="contact_icon">
+              <i class="ri-contacts-line"></i>
+            </div>
+          </div>
+          <div class="contact_item2">
+            <div class="contact_number">
+              <h4>Phone</h4>
+              <h5>+91 8791993268</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact_phone_icon">
+          <div class="contact_item1">
+            <div class="contact_icon">
+              <i class="ri-mail-send-line"></i>
+            </div>
+          </div>
+          <div class="contact_item2">
+            <div class="contact_number">
+              <h4>Email</h4>
+              <h5>aakashy5990@gmail.com</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact_phone_icon">
+          <div class="contact_item1">
+            <div class="contact_icon">
+              <i class="ri-map-pin-2-line"></i>
+            </div>
+          </div>
+          <div class="contact_item2">
+            <div class="contact_number">
+              <h4>Location</h4>
+              <h5>Uttrakhand</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="CV_button">
+          <a class="button_item" href="https://drive.google.com/file/d/1_dBhxzPxMMw5s_Y39iNhGGiFk4VOS4nD/view?usp=drive_link" download="CV">Download CV<i class="ri-download-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ****************About me section*************** -->
+  <div class="about_main container" id="about">
+    <div class="about_section">
+      <div class="about_item">
+        <h2 class="about_heading">About</h2>
+      </div>
+      <div class="about_item">
+        <div class="about_img">
+          <img src="img/about1.png" alt="" />
+        </div>
+      </div>
+      <div class="about_item">
+        <p class="about_pera">
+          Hi there! I am Aakash Yadav from Ghaziabad, I am currently
+          Pursuing Bachelor of Engineering form ABES Institute of technology.
+        </p>
+      </div>
+      <div class="about_item">
+        <div class="CV_button">
+          <a class="button_item" href="https://drive.google.com/file/d/1_dBhxzPxMMw5s_Y39iNhGGiFk4VOS4nD/view?usp=drive_link" download="CV"><i class="ri-download-line">CV</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- ***********social section************** -->
+  <div class="social_main container">
+    <p class="social_header">Social</p>
+    <div class="social_grid">
+      <div class="social_item">
+        <div class="insta"><a href="https://www.instagram.com/creatorz_editz/" target="_blank"><i
+              class="ri-instagram-line"></i></a></div>
+      </div>
+      <div class="social_item">
+        <div class="fb"><a href="https://www.facebook.com/profile.php?id=100028252240753" target="_blank"><i
+              class="ri-facebook-fill"></i></a></div>
+      </div>
+      <div class="social_item">
+        <div class="linkedin"><a href="https://www.linkedin.com/in/aakash-yadav-9bb5a5263" target="_blank"><i
+              class="ri-linkedin-fill"></i></a></div>
+      </div>
+      <div class="social_item">
+        <div class="github"><a href="https://github.com/aakashy5990" target="_blank"><i class="ri-github-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- *****************login page ***************** -->
+
+  <div class="login_container container" id="contact">
+    <div class="login-card">
+      <!-- <h3 class="login_heading">Don't fill the form it is not available</h3> -->
+      <div class="card-header">
+        <h1>Get In Touch</h1>
+      </div>
+      <div class="card-body">
+        <form method="POST" action="index.html" name="google-sheet" id="clear_form">
+          <div class="form-group">
+            <label for="username">Name</label>
+            <input type="text" id="username" name="Name" required="">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required="">
+          </div>
+
+          <div class="form-group">
+            <label for="textarea">Message</label>
+            <textarea id="textarea" placeholder="A have a question..." name="Message" rows="4" cols="50"></textarea>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" value="Send & Wait" id="button" name="send">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************footer*********** -->
+  <footer class="footer_section">
+    <p>Aakash Yadav</p>
+    <div class="social">
+      <a href="https://www.facebook.com/profile.php?id=100028252240753" target="_blank"><i
+          class="ri-facebook-fill"></i></a>
+      <a href="https://www.instagram.com/creatorz_editz/" target="_blank"><i class="ri-instagram-line"></i></a>
+      <a href="https://www.linkedin.com/in/aakash-yadav-9bb5a5263" target="_blank"><i class="ri-linkedin-fill"></i></a>
+    </div>
+    <p class="end">&copy; CopyRight By Aakash Yadav</p>
+  </footer>
+
+
+
+
+  <div class="scroll_arrow">
+    <i class="ri-arrow-up-double-line"></i>
+  </div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
